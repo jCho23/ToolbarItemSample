@@ -8,7 +8,7 @@ namespace ToolbarItemSample
         {
             InitializeComponent();
 
-            MainPage = new ToolbarItemSamplePage();
+            MainPage = new NavigationPage(new ToolbarItemSamplePage());
         }
 
         protected override void OnStart()
