@@ -13,9 +13,5 @@
             Priority="0" 
             Activated="Handle_Activated"/>
     </ContentPage.ToolbarItems>
-
-    <ListView>
-
-    </ListView>
     
 </ContentPage>
