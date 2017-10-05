@@ -9,9 +9,9 @@ namespace ToolbarItemSample
             InitializeComponent();
         }
 
-        void Handle_Activated(object sender, System.EventArgs e)
+        async void Handle_Activated(object sender, System.EventArgs e)
         {
-            //throw new NotImplementedException();
+            await Navigation.PushAsync(new EmptyListPage());
         }
     }
 }
